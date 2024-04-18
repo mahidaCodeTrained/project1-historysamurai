@@ -25,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
 
 header a {
@@ -50,7 +51,7 @@ header a {
 /* Navigation Bar Design */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #965036;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -68,13 +69,16 @@ nav {
     display: none;
 }
 
+.navigation-toggle-label {
+    font-size: 2rem;
+}
 
 
 main {
-    background-color: khaki;
+    background-color: rgb(235, 206, 169);
     flex: 1 0 auto;
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(232, 250, 220);
 }
