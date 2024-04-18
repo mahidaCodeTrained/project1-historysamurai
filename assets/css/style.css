@@ -1,0 +1,80 @@
+/* The asterisk gets rid of defauly styling from the browser*/
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* The most general of styles */ 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #965036;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#navigation-menu > li {
+    margin-bottom: 1em;
+}
+
+.active-page {
+    border-bottom: 1px solid #3a3a3a
+}
+
+
+/* Navigation Bar Design */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* These are concerned with the navigation checkbox */
+#navigation-toggle:checked~nav {
+    display: block;
+}
+
+#navigation-toggle {
+    display: none;
+}
+
+
+
+main {
+    background-color: khaki;
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: aqua;
+}
