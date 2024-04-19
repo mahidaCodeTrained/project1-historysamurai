@@ -119,5 +119,24 @@ footer {
     .navigation-toggle-label {
         display: none;
     }
+     
+    #header-logo {
+        font-size: 110%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* The main content is targeted now in this media query to make the main content push below the header */
+    main {
+        margin-top: 76px;
+    }
+}
+
+/* Media Query for screen sizes (992px or larger) */
+@media screen and (min-width: 992px) {
+    
+    #navigation-menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
 }
