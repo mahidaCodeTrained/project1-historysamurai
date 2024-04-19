@@ -13,6 +13,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(235, 206, 169);
 }
 
 header {
@@ -32,7 +33,7 @@ h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #3a3a3a;
-    font-size: 18px;
+    
 }
 
 header a {
@@ -72,7 +73,7 @@ nav {
 main {
     background-color: rgb(235, 206, 169);
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 37px;
 }
 
 #navigation-menu {
@@ -90,9 +91,33 @@ main {
 }
 
 
-
-
-
 footer {
     background-color: rgb(232, 250, 220);
+}
+
+/* Media Query for tablet devices and larger (768px) */
+@media screen and (min-width: 768px) {
+ 
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+   
+   #navigation-menu {
+    display: flex;
+   
+   }
+
+   #navigation-menu, li {
+    padding-left: 1rem;
+   }
+   
+   
+    .navigation-toggle-label {
+        display: none;
+    }
+
 }
