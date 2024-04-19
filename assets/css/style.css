@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap');
+
 /* The asterisk gets rid of defauly styling from the browser*/
 * {
     padding: 0;
@@ -33,6 +35,9 @@ h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #3a3a3a;
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+
     
 }
 
@@ -73,7 +78,7 @@ nav {
 main {
     
     flex: 1 0 auto;
-    margin-top: 37px;
+    margin-top: 84px;
 }
 
 #navigation-menu {
@@ -121,7 +126,7 @@ footer {
     }
      
     #header-logo {
-        font-size: 110%;
+        font-size: 170%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
