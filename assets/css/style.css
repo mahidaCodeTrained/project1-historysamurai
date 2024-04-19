@@ -13,7 +13,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-    background-color: rgb(235, 206, 169);
+    
 }
 
 header {
@@ -71,7 +71,7 @@ nav {
 
 
 main {
-    background-color: rgb(235, 206, 169);
+    
     flex: 1 0 auto;
     margin-top: 37px;
 }
