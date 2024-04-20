@@ -76,7 +76,7 @@ nav {
 
 
 main {
-    background-color: dimgray;
+    
     flex: 1 0 auto;
     margin-top: 42px;
 }
@@ -95,6 +95,13 @@ main {
     color: pink;
 }
 
+/* This will be concerned with the hero image in the first section */
+#torii-hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/torii-5926892_1280.jpg) no-repeat center center/cover;
+
+}
 
 
 footer {
