@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    
     
 }
 
@@ -34,7 +34,7 @@ header {
 h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: #3a3a3a;
+    color: #ffffff;
     font-family: "EB Garamond", serif;
     font-weight: 700;
 
@@ -43,7 +43,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 
@@ -76,9 +76,9 @@ nav {
 
 
 main {
-    
+    background-color: dimgray;
     flex: 1 0 auto;
-    margin-top: 84px;
+    margin-top: 42px;
 }
 
 #navigation-menu {
@@ -91,8 +91,8 @@ main {
     margin-bottom: 1em;
 }
 
-.active-page {
-    border-bottom: 1px solid #3a3a3a
+.nav-hover:hover {
+    color: pink;
 }
 
 
