@@ -19,7 +19,8 @@ body {
 }
 
 header {
-    background-color: #965036;
+    background-image: linear-gradient(#3e4b40, #6c3916) ;
+    /*background-color: #33230b;*/
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -34,7 +35,7 @@ header {
 h1 {
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
     font-family: "EB Garamond", serif;
     font-weight: 700;
 
@@ -43,7 +44,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    color: #ffffff;
+    color: #050505;
 }
 
 
@@ -52,7 +53,7 @@ header a {
 /* Navigation Bar Design */
 nav {
     position: absolute;
-    background-color: #965036;
+   /* background-color: #33230b;*/  /* This has been commented just as a placeholder to test background gradients */
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -106,7 +107,9 @@ main {
 
 footer {
     background-color: rgb(232, 250, 220);
+    padding: 20px 0;
 }
+
 
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
@@ -152,5 +155,7 @@ footer {
     #navigation-menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    
 
 }
