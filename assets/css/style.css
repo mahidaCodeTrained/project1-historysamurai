@@ -118,6 +118,7 @@ main {
 
 #torii-hero-text > h2 {
        text-align: center;
+       text-transform: uppercase;
 }
 
 .italix-style {
@@ -125,6 +126,15 @@ main {
     font-size: 110%;
     padding-left: 10px;
 }
+
+/* This is CSS for the section underneath the hero */
+ #torii-history {
+    height: 400px;
+    width: 100%;
+    background-color: #FB966E;
+ }
+ 
+
 
 footer {
     background-color: rgb(232, 250, 220);
