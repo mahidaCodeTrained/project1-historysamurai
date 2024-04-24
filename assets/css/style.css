@@ -149,11 +149,15 @@ main {
  .container {
       border: 2px solid rgb(65, 44, 25);
       background-color: rgb(248, 154, 87);
+      width: 100%;
+      box-shadow: 0px 2px 2px 0 #000000;
     
  }
 
  video {
     object-position: center;
+    
+    
  }
 
 
@@ -217,5 +221,10 @@ main {
    #article-header {
     text-align: center;
     font-size: 120%;
+   }
+
+   video {
+    object-fit: cover;
+    height: 500px;
    }
 }
