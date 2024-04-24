@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* The asterisk gets rid of defauly styling from the browser*/
 * {
@@ -14,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family:"Montserrat", sans-serif;;
     
     
 }
@@ -128,22 +130,34 @@ main {
 }
 
 /* This is CSS for the article underneath the hero */
- .torii-intro {
+ #torii-intro {
     width: 100%;
     font-size: 100%;
     min-height: 200px;
     background-color: #c0dee5;
     padding: 5px;
+    
  }
 
  #article-header {
     text-decoration: underline;
     font-weight:500;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Montserrat", sans-serif;
 
  }
 
-footer {
+ .container {
+      border: 2px solid rgb(65, 44, 25);
+      background-color: rgb(248, 154, 87);
+    
+ }
+
+ video {
+    object-position: center;
+ }
+
+
+ footer {
     background-color: rgb(232, 250, 220);
     padding: 20px 0;
 }
@@ -199,6 +213,9 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    
-
+    /* Introduction Section */
+   #article-header {
+    text-align: center;
+    font-size: 120%;
+   }
 }
