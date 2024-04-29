@@ -4,20 +4,21 @@
 /* The asterisk gets rid of defauly styling from the browser*/
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-/* The most general of styles */ 
+/* The most general of styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family:"Montserrat", sans-serif;;
-    
-    
+    font-family: "Montserrat", sans-serif;
+    ;
+
+
 }
 
 /* These are styles relating to the header */
@@ -34,14 +35,16 @@ header {
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #000000;
     font-family: "EB Garamond", serif;
     font-weight: 700;
 
-    
+
 }
 
 #header-logo {
@@ -61,7 +64,7 @@ header a {
 /* Navigation Bar Design */
 nav {
     position: absolute;
-   background-color: #c0dee5; 
+    background-color: #c0dee5;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -85,7 +88,7 @@ nav {
 
 
 main {
-    
+
     flex: 1 0 auto;
     margin-top: 42px;
 }
@@ -96,7 +99,7 @@ main {
     list-style-type: none;
 }
 
-#navigation-menu > li {
+#navigation-menu>li {
     margin-bottom: 1em;
 }
 
@@ -124,9 +127,9 @@ main {
 
 }
 
-#torii-hero-text > h2 {
-       text-align: center;
-       text-transform: uppercase;
+#torii-hero-text>h2 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .italix-style {
@@ -136,75 +139,98 @@ main {
 }
 
 /* This is CSS for the article underneath the hero */
- #torii-intro {
+#torii-intro {
     width: 100%;
     font-size: 100%;
     min-height: 200px;
     background-color: #c0dee5;
     padding: 5px;
-    
- }
 
- #article-header {
+}
+
+#article-header {
     text-decoration: underline;
-    font-weight:500;
-    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
 
- }
+}
 
- .container {
-      border: 2px solid rgb(65, 44, 25);
-      background-color: rgb(248, 154, 87);
-      width: 100%;
-      box-shadow: 0px 2px 2px 0 #000000;
-      font-weight: 700;
-      
-    
- }
-
- video {
-    object-position: center;
-    
-    
- }
-
- /* Torii Information Section */
- .box-containers {
-    background-color: #68faff;
+.container {
+    border: 2px solid rgb(65, 44, 25);
+    background-color: rgb(248, 154, 87);
     width: 100%;
-    height: 900px;
+    box-shadow: 0px 2px 2px 0 #000000;
+    font-weight: 700;
+
+
+}
+
+video {
+    object-position: center;
+
+
+}
+
+/* Torii Information Section */
+.box-containers {
+    background-color: #c0dee5;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
 
- }
+}
 
- .torii-box-one  {
+.torii-box-one {
     width: 100%;
-    max-width:350px;
-    min-height: 300px;
-    background-color: dodgerblue;
- }
+    max-width: 350px;
+    min-height: 1000px;
+    background-color: rgb(116, 85, 49);
+    color: white;
+}
 
- .torii-box-two {
+/* Torii Box One Image */
+.torii-box-one img {
     width: 100%;
-    max-width:350px;
-    min-height: 300px;
-    background-color: dodgerblue;
- }
+    height: 30%;
+    object-fit: cover;
 
- .torii-box-three {
+}
+
+.torii-box-two {
     width: 100%;
-    max-width:350px;
-    min-height: 300px;
+    max-width: 350px;
+    min-height: 1000px;
     background-color: dodgerblue;
- }
+    color: white;
+}
 
- 
+/* Torri Box Two Image */
+.torii-box-two img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.torii-box-three {
+    width: 100%;
+    max-width: 350px;
+    min-height: 1000px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Torii Box Three Image */
+.torii-box-three img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
 
 
- footer {
+footer {
     background-color: rgb(232, 250, 220);
     padding: 20px 0;
 }
@@ -212,7 +238,7 @@ main {
 
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
- 
+
     nav {
         display: block;
         position: relative;
@@ -220,21 +246,22 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
-   
-   #navigation-menu {
-    display: flex;
-   
-   }
 
-   #navigation-menu, li {
-    padding-left: 1rem;
-   }
-   
-   
+    #navigation-menu {
+        display: flex;
+
+    }
+
+    #navigation-menu,
+    li {
+        padding-left: 1rem;
+    }
+
+
     .navigation-toggle-label {
         display: none;
     }
-     
+
     #header-logo {
         font-size: 270%;
         line-height: 75px;
@@ -255,19 +282,19 @@ main {
 
 /* Media Query for screen sizes (992px or larger) */
 @media screen and (min-width: 992px) {
-    
+
     #navigation-menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
     /* Introduction Section */
-   #article-header {
-    text-align: center;
-    font-size: 120%;
-   }
+    #article-header {
+        text-align: center;
+        font-size: 120%;
+    }
 
-   video {
-    object-fit: cover;
-    height: 500px;
-   }
+    video {
+        object-fit: cover;
+        height: 500px;
+    }
 }
