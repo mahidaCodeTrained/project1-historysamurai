@@ -237,6 +237,11 @@ video {
     object-fit: cover;
 }
 
+/* This relates to the torii list found in torii-box-one */
+#torii-area-list {
+    margin: 20px;
+}
+
 
 footer {
     background-color: rgb(232, 250, 220);
