@@ -184,7 +184,7 @@ video {
 .torii-box-one {
     width: 100%;
     max-width: 350px;
-    min-height: 1450px;
+    min-height: 1520px;
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
@@ -207,7 +207,7 @@ video {
 .torii-box-two {
     width: 100%;
     max-width: 350px;
-    min-height: 1450px;
+    min-height: 1520px;
     background-color: dodgerblue;
     color: white;
     margin: 10px;
