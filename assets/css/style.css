@@ -153,11 +153,11 @@ main {
 }
 
 .container {
-    border: 2px solid rgb(65, 44, 25);
-    background-color: rgb(248, 154, 87);
+    padding: 5px;
+    background-color: rgb(116, 85, 49);
     width: 100%;
     box-shadow: 0px 2px 2px 0 #000000;
-    font-weight: 700;
+    color: white;
 
 
 }
@@ -296,6 +296,12 @@ footer {
     /* Hero text */
     #torii-hero-text {
         width: 30%;
+    }
+
+    /* CSS relating to the second paragraph within the article */
+    .tablet-padding {
+        padding: 5px;
+        text-align: center;
     }
 }
 
