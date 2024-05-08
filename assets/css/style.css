@@ -22,6 +22,10 @@ body {
     text-align: center;
 }
 
+.text-underline {
+    text-decoration: underline;
+}
+
 /* These are styles relating to the header */
 header {
     background-color: #c0dee5;
@@ -199,7 +203,7 @@ video {
     height: 20%;
     object-fit: cover;
 }
-
+/* Torii Box One Header */
 .torii-box-one h4 {
     font-size: 130%;
     font-style: italic;
@@ -213,6 +217,12 @@ video {
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
+    padding: 5px;
+}
+/* Torii Box Two Header */
+.torii-box-two h4 {
+    font-size: 130%;
+    font-style: italic;
     padding: 5px;
 }
 
@@ -231,12 +241,20 @@ video {
 .torii-box-three {
     width: 100%;
     max-width: 350px;
-    min-height: 1450px;
+    min-height: 1420px;
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
     padding: 5px;
 }
+
+/* Torii Box Three Header */
+.torii-box-three h4 {
+    font-size: 130%;
+    font-style: italic;
+    padding: 5px;
+}
+
 
 /* Torii Box Three Image */
 .torii-box-three img {
@@ -247,9 +265,15 @@ video {
 
 #moss-torii-image {
     width: 100%;
-    height: 10%;
+    height: 15%;
     object-fit: cover;
     padding: 5px;
+}
+
+#myojin-image {
+    width: 100%;
+    height: 15%;
+    object-fit: cover;
 }
 
 /* This relates to the torii list found in torii-box-one */
@@ -263,7 +287,7 @@ video {
 }
 
 .list-gap {
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 footer {
