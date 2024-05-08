@@ -16,9 +16,11 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: "Montserrat", sans-serif;
-
 }
 
+.text-center {
+    text-align: center;
+}
 
 /* These are styles relating to the header */
 header {
@@ -243,11 +245,26 @@ video {
     object-fit: cover;
 }
 
+#moss-torii-image {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    padding: 5px;
+}
+
 /* This relates to the torii list found in torii-box-one */
 #torii-area-list {
     margin: 20px;
 }
 
+/* This relates to the torii list in torii-box-three */
+.torii-listing {
+    margin: 20px;
+}
+
+.list-gap {
+    padding: 0.5rem;
+}
 
 footer {
     background-color: rgb(232, 250, 220);
