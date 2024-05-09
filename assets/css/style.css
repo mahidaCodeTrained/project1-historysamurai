@@ -152,9 +152,11 @@ main {
 }
 
 #article-header {
-    text-decoration: underline;
-    font-weight: 500;
     font-family: "Montserrat", sans-serif;
+    color: white;
+    font-style: italic;
+    padding: 10px;
+
 
 }
 
