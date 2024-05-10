@@ -426,4 +426,8 @@ footer {
         object-fit: cover;
         height: 500px;
     }
+
+    #myojin-image {
+         height: 16%;
+    }
 }
