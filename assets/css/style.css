@@ -308,8 +308,25 @@ video {
     padding: 0.2rem;
 }
 
+/* CSS for the footer */
+
+#network-list {
+    text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  
+}
+
+#network-list i {
+    font-size: 160%;
+    color: rgb(116, 85, 49);
+    padding: 5px;
+}
+
 footer {
-    background-color: rgb(232, 250, 220);
+    background-color:azure;
     padding: 20px 0;
 }
 
