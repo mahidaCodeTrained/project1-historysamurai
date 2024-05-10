@@ -26,6 +26,11 @@ body {
     text-decoration: underline;
 }
 
+em {
+    color: aquamarine;
+    font-weight: bold;
+}
+
 /* These are styles relating to the header */
 header {
     background-color: #c0dee5;
@@ -135,10 +140,16 @@ main {
     text-transform: uppercase;
 }
 
+#torii-hero-header {
+    color: #794a1f;
+    font-weight: bolder;
+}
+
 .italix-style {
-    color: brown;
+    color: rgb(116, 85, 49);
     font-size: 110%;
     padding-left: 10px;
+    font-weight: 700;
 }
 
 /* This is CSS for the article underneath the hero */
