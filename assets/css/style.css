@@ -192,7 +192,7 @@ video {
 .torii-box-one {
     width: 100%;
     max-width: 350px;
-    min-height: 1520px;
+    min-height: 1375px;
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
@@ -217,7 +217,7 @@ video {
 .torii-box-two {
     width: 100%;
     max-width: 350px;
-    min-height: 1520px;
+    min-height: 1350px;
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
@@ -248,7 +248,7 @@ video {
 .torii-box-three {
     width: 100%;
     max-width: 350px;
-    min-height: 1420px;
+    height: 1300px;
     background-color: rgb(116, 85, 49);
     color: white;
     margin: 10px;
@@ -378,7 +378,7 @@ footer {
     .torii-box-three {
         width: 100%;
         max-width: 350px;
-        height: 1275px;
+        height: 1320px;
         background-color: rgb(116, 85, 49);
         color: white;
         margin: 10px;
