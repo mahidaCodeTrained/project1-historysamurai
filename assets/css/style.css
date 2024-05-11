@@ -355,6 +355,10 @@ footer {
     padding: 5px;
 }
 
+#crashing-wave-torii {
+    object-position: bottom;
+}
+
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
 
@@ -446,6 +450,11 @@ footer {
     #myojin-image {
         width: 100%;
         height: 18%;
+    }
+
+    /* location.html media queries */
+    #crashing-wave-torii {
+        object-fit: cover;
     }
 }
 
