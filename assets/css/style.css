@@ -330,6 +330,23 @@ footer {
     padding: 20px 0;
 }
 
+/* Unique CSS for locations.html */
+#locations-hero {
+    background: url(../images/sea-7370549.jpg) no-repeat center bottom/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#locations-container {
+    padding: 5px;
+    height: 200px;
+    background-color: rgb(116, 85, 49);
+    width: 100%;
+    box-shadow: 0px 2px 2px 0 #000000;
+    color: white;
+
+}
 
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
