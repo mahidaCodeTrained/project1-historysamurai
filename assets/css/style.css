@@ -353,6 +353,23 @@ footer {
     position: relative;
 }
 
+#locations-hero-text {
+    background-color: rgba(248, 225, 163, 0.7);
+    position: absolute;
+    min-height: 200px;
+    width: 90%;
+    bottom: 240px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+#locations-hero-header {
+    color: #794a1f;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
 #locations-container {
     padding: 5px;
     min-height: 200px;
@@ -433,7 +450,7 @@ footer {
 
 /*Media Query for Mobile Devices (320px)*/
 .mobile-view {
-    height: 1750px;
+    height: 1820px;
 }
 
 iframe {
@@ -544,7 +561,11 @@ iframe {
     }
 
     /* location.html media queries */
-   
+     #locations-hero-text {
+        bottom: 30px;
+        width: 45%;
+        margin: 210px
+     }    
 
     .tablet-view  {
         height: 1950px;
@@ -573,6 +594,10 @@ iframe {
 
     .poem em {
         font-size: 10px;
+    }
+    
+    #inari-fox-image {
+        height: 13%;
     }
 }
 
@@ -620,18 +645,27 @@ iframe {
         padding: 0.3rem;
     }
 
-    /* Height of Torii Box Three */
+    /*locations.html*/
+    #locations-hero-text {
+        bottom: 30px;
+        margin: 0px;
+        width: 30%;
+    }
+
+    /* Height of Torii Box Three in locations.html */
     .browser-height {
         height: 1950px;
     }
 
-
+   
+   
+   
+   
     /*CSS for locations.html to equal height for browser */
     #inari-fox-image, #senbon-torii {
         margin-top: 15px;
     }
 
-    
 
 /* iframe */
 iframe {
