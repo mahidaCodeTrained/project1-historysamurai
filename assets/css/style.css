@@ -418,6 +418,10 @@ footer {
     
 }
 
+iframe {
+    width: 100%;
+}
+
 
 
 /*Media Query for mobile phone screens (280px)*/
