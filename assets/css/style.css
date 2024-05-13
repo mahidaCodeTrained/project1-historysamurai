@@ -359,6 +359,43 @@ footer {
     object-position: bottom;
 }
 
+/*Media Query for mobile phone screens (280px)*/
+@media screen and (min-width: 280px) {
+
+    .torii-box-one p {
+    font-size: 14.5px;
+}
+
+.torii-box-two p {
+    font-size: 14.5px;
+}
+
+.torii-box-three p  {
+    font-size: 14.5px;
+}
+
+.torii-box-three li {
+    font-size: 14.5px;
+}
+
+#moss-torii-image {
+    height: 12%;
+}
+
+.list-gap {
+    padding: 0.175rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
 
@@ -480,4 +517,26 @@ footer {
     #myojin-image {
          height: 16%;
     }
+
+    /* Torii Boxes*/
+    .torii-box-one p {
+    font-size:16px;
+    }
+
+    .torii-box-two p {
+        font-size: 16px;
+    }
+
+    .torii-box-three p {
+        font-size: 16px;
+    }
+
+    .torii-box-three li {
+        font-size: 16px;
+    }
+
+    .list-gap {
+        padding: 0.3rem;
+    }
+
 }
