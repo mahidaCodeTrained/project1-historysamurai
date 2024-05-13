@@ -386,6 +386,11 @@ footer {
     height: 12%;
 }
 
+#meiji-torii-two {
+    height: 12%;
+    object-position: bottom;
+}
+
 /*Media Query for mobile phone screens (280px)*/
 @media screen and (min-width: 280px) {
 
@@ -478,10 +483,7 @@ footer {
         margin: 10px;
         padding: 5px;
     }
-    .tablet-view {
-        height: 1650px;
-    }
-
+    
     .torii-box-two {
         width: 100%;
         max-width: 350px;
@@ -515,11 +517,26 @@ footer {
     }
 
     /* location.html media queries */
+   
+
+    .tablet-view  {
+        height: 1950px;
+    
+    }
+    .tablet-view p {
+        font-size: 17.5px;
+        padding: 3px;
+    }
+   
+    /*location.html images/video*/ 
     #crashing-wave-torii {
         object-fit: cover;
     }
 
-    
+    #meiji-torii-two {
+        margin-top: 7px;
+    }
+
 }
 
 
