@@ -123,7 +123,7 @@ main {
 #torii-hero {
     height: 600px;
     width: 100%;
-    background: url(../images/torii-5926892_1280.jpg) no-repeat center center/cover;
+    background: url(../images/torii-5926892_1280.webp) no-repeat center center/cover;
     position: relative;
 
 }
@@ -347,7 +347,7 @@ footer {
 
 /* Unique CSS for locations.html */
 #locations-hero {
-    background: url(../images/sea-7370549.jpg) no-repeat center bottom/cover;
+    background: url(../images/sea-7370549.webp) no-repeat center bottom/cover;
     height: 600px;
     width: 100%;
     position: relative;
