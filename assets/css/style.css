@@ -187,7 +187,8 @@ main {
 
 video {
     object-position: center;
-
+    width: 100%;
+    height: 200px;
 
 }
 
@@ -214,6 +215,9 @@ video {
     padding: 5px;
 }
 
+.torii-box-one p {
+    padding: 1.5px;
+}
 /* Torii Box One Image */
 .torii-box-one img {
     width: 100%;
@@ -239,6 +243,9 @@ video {
     padding: 5px;
 }
 
+.torii-box-two p {
+    padding: 1.5px;
+}
 /* Torii Box Two Header */
 .torii-box-two h4 {
     font-size: 130%;
@@ -268,6 +275,10 @@ video {
     color: white;
     margin: 10px;
     padding: 5px;
+}
+
+.torii-box-three p {
+    padding: 1.5px;
 }
 
 /* Torii Box Three Header */
@@ -368,6 +379,10 @@ footer {
 }
 
 #senbon-torii {
+    height: 12%;
+}
+
+#meiji-torii {
     height: 12%;
 }
 
