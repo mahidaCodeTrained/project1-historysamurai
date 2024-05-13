@@ -31,6 +31,10 @@ em {
     font-weight: bold;
 }
 
+.slightpadding {
+    padding: 5px;
+}
+
 /* These are styles relating to the header */
 header {
     background-color: #c0dee5;
@@ -359,6 +363,14 @@ footer {
     object-position: bottom;
 }
 
+#inari-fox-image {
+    height: 15%;
+}
+
+#senbon-torii {
+    height: 12%;
+}
+
 /*Media Query for mobile phone screens (280px)*/
 @media screen and (min-width: 280px) {
 
@@ -387,15 +399,10 @@ footer {
 }
 }
 
-
-
-
-
-
-
-
-
-
+/*Media Query for Mobile Devices (320px)*/
+.mobile-view {
+    height: 1750px;
+}
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
 
@@ -493,6 +500,8 @@ footer {
     #crashing-wave-torii {
         object-fit: cover;
     }
+
+    
 }
 
 
