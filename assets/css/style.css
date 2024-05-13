@@ -463,6 +463,9 @@ footer {
         margin: 10px;
         padding: 5px;
     }
+    .tablet-view {
+        height: 1650px;
+    }
 
     .torii-box-two {
         width: 100%;
@@ -548,4 +551,8 @@ footer {
         padding: 0.3rem;
     }
 
+/* iframe */
+iframe {
+  height: 250px;
+}
 }
