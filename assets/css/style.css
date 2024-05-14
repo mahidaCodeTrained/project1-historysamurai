@@ -417,9 +417,21 @@ footer {
     margin-bottom: 20px;
     
 }
-
+/*Torii-Box-Three in location.html images*/
 #miyajima-torii {
     object-position: top;
+}
+
+#miyajima-torii-two {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 12%
+}
+
+#miyajima-torii-three {
+    height: 12%;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 
@@ -662,9 +674,18 @@ iframe {
         width: 30%;
     }
 
-    /* Height of Torii Box Three in locations.html */
+    /* Height of Torii Box Three in locations.html + image height of images in all torii boxes*/
     .browser-height {
         height: 1950px;
+    }
+    
+    #senbon-torii {
+        height: 260px;
+        object-fit: cover;
+    }
+
+    #meiji-torii-two {
+        height: 15.5em;
     }
 
    
