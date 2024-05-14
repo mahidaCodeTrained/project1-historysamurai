@@ -418,6 +418,12 @@ footer {
     
 }
 
+#miyajima-torii {
+    object-position: top;
+}
+
+
+/*Iframe*/
 iframe {
     width: 100%;
 }
