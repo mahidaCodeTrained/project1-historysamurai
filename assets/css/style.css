@@ -305,7 +305,7 @@ video {
 
 #myojin-image {
     width: 100%;
-    height: 13%;
+    height: 17%;
     object-fit: cover;
 }
 
@@ -440,7 +440,8 @@ iframe {
     width: 100%;
 }
 
-
+/*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
+There are media queries for small mobile screens, medium sized mobile screens, large mobile screens, tablets and finally the browser.*/
 
 /*Media Query for mobile phone screens (280px)*/
 @media screen and (min-width: 280px) {
@@ -461,14 +462,10 @@ iframe {
     font-size: 14.5px;
 }
 
-#moss-torii-image {
-    height: 12%;
-}
-
 .list-gap {
     padding: 0.175rem;
 }
-}
+} 
 
 /*Media Query for Mobile Devices (320px)*/
 .mobile-view {
@@ -479,15 +476,54 @@ iframe {
     height: 280px;
 }
 
-/* CSS purposed to match height of boxes in mobile */
+/* Image height in index.html */
+ #red-torii-image {
+    height: 18%;
+ }
+
+ #myojin-image {
+    height: 15%;
+ }
+
+/* CSS purposed to match height of boxes in mobile (location.html)*/
 #meiji-torii, #meiji-torii-two {
     margin-top: 18px;
     margin-bottom: 18px;
 
 }
 
+/* Media Query for Mobile-M devices and larger (375px) */
+@media screen and (min-width: 375px) {
+   
+   /* The sizing for boxes on the torii boxes in index.html */
+    .indexhtml-boxsizing {
+    min-height: 1150px;  
+    
+   }
 
+   /* images */
+   #red-torii-image {
+    height: 20%;
+   }
+   
+   #moss-torii-image {
+    height: 16%;
+   }
 
+   #myojin-image {
+    height: 20%;
+   }
+}
+
+/* Media Query for Mobile-L devices and larger (425px) */
+@media screen and (min-width: 425px) {
+/* Very slight changes to measurements of images to push against the box. */
+#moss-torii-image {
+    height: 17%;
+    
+}
+
+}
 
 /* Media Query for tablet devices and larger (768px) */
 @media screen and (min-width: 768px) {
@@ -647,6 +683,8 @@ iframe {
     }
 
     /* Torii Boxes*/
+    
+    
     .torii-box-one p {
     font-size:16px;
     }
