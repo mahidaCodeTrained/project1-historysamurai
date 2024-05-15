@@ -449,7 +449,7 @@ iframe {
     background-image: url(../images/su-san-lee-E_eWwM29wfU-unsplash.jpg);
 
     /* The height of the parralax */
-    min-height: 1400px;
+    min-height: 1900px;
 
     /* Creating the Effect */
     background-attachment: fixed;
@@ -460,7 +460,7 @@ iframe {
 }
 
 #gallery-parralax-text {
-     background-color: rgba(248, 225, 163, 0.7);
+    background-color: rgba(248, 225, 163, 0.7);
     position: absolute;
     min-height: 200px;
     width: 90%;
@@ -470,10 +470,23 @@ iframe {
 }
 
 #gallery-header {
-    
-        color: #794a1f;
-        font-weight: bolder;
-    
+    color: #794a1f;
+    font-weight: bolder;
+
+}
+
+#initial-picture {
+    margin-top: 450px;
+    margin-left: 15px;
+}
+
+#photos img {
+    width: 90%;
+    margin-left: 15px;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
@@ -532,6 +545,17 @@ iframe {
     margin-top: 18px;
     margin-bottom: 18px;
 
+}
+
+/* gallery.html */
+#gallery-parralax-text {
+    margin-bottom: 450px;
+    margin-left: 15px;
+}
+
+#gallery-header {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Media Query for Mobile-M devices and larger (375px) */
@@ -837,7 +861,7 @@ iframe {
     /* gallery.html */
     #gallery-parralax-text {
         width: 30%;
-        margin:  400px;
+        margin: 400px;
         margin-bottom: 550px;
         margin-left: 675px;
     }
@@ -845,6 +869,6 @@ iframe {
     #gallery-header {
         text-align: center;
         text-transform: uppercase;
-        
+
     }
 }
