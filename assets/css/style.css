@@ -437,10 +437,43 @@ footer {
     margin-bottom: 2px;
 }
 
-
 /*Iframe*/
 iframe {
     width: 100%;
+}
+
+/* This is code for gallery.html */
+
+#gallery-parralax {
+    /* The image used */
+    background-image: url(../images/su-san-lee-E_eWwM29wfU-unsplash.jpg);
+
+    /* The height of the parralax */
+    min-height: 1400px;
+
+    /* Creating the Effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#gallery-parralax-text {
+     background-color: rgba(248, 225, 163, 0.7);
+    position: absolute;
+    min-height: 200px;
+    width: 90%;
+    bottom: 30px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+#gallery-header {
+    
+        color: #794a1f;
+        font-weight: bolder;
+    
 }
 
 /*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
@@ -524,9 +557,10 @@ iframe {
     }
 
     /* images for location.html */
-    #inari-fox-image, #senbon-torii {
-    height: 20%;
-   }
+    #inari-fox-image,
+    #senbon-torii {
+        height: 20%;
+    }
 
     #meiji-torii {
         height: 15%;
@@ -535,7 +569,7 @@ iframe {
     #meiji-torii-two {
         height: 15%;
     }
-    
+
     #miyajima-torii-two {
         height: 15%;
     }
@@ -702,7 +736,8 @@ iframe {
         height: 13%;
     }
 
-    #miyajima-torii-two, #miyajima-torii-three {
+    #miyajima-torii-two,
+    #miyajima-torii-three {
         height: 12%;
     }
 }
@@ -735,16 +770,16 @@ iframe {
     .indexhtml-boxsizing {
         height: 1350px;
     }
-    
+
     #red-torii-image {
         height: 20%;
     }
-    
+
     #moss-torii-image {
         height: 15%;
     }
 
-    
+
 
     .torii-box-one p {
         font-size: 16px;
@@ -797,5 +832,19 @@ iframe {
     /* iframe */
     iframe {
         height: 360px;
+    }
+
+    /* gallery.html */
+    #gallery-parralax-text {
+        width: 30%;
+        margin:  400px;
+        margin-bottom: 550px;
+        margin-left: 675px;
+    }
+
+    #gallery-header {
+        text-align: center;
+        text-transform: uppercase;
+        
     }
 }
