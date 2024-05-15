@@ -475,6 +475,11 @@ There are media queries for small mobile screens, medium sized mobile screens, l
     height: 1820px;
 }
 
+/*For the third torii-box in locations.html*/
+.mobile-view-two {
+    height: 1750px;
+}
+
 iframe {
     height: 280px;
 }
@@ -517,6 +522,28 @@ iframe {
     #myojin-image {
         height: 20%;
     }
+
+    /* images for location.html */
+    #inari-fox-image, #senbon-torii {
+    height: 20%;
+   }
+
+    #meiji-torii {
+        height: 15%;
+    }
+
+    #meiji-torii-two {
+        height: 15%;
+    }
+    
+    #miyajima-torii-two {
+        height: 15%;
+    }
+
+    #miyajima-torii-three {
+        height: 14%;
+    }
+
 }
 
 /* Media Query for Mobile-L devices and larger (425px) */
@@ -659,6 +686,7 @@ iframe {
     #meiji-torii,
     #meiji-torii-two {
         margin-bottom: 0px;
+        height: 12%;
     }
 
     #inari-fox-image,
@@ -672,6 +700,10 @@ iframe {
 
     #inari-fox-image {
         height: 13%;
+    }
+
+    #miyajima-torii-two, #miyajima-torii-three {
+        height: 12%;
     }
 }
 
