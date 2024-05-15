@@ -218,6 +218,7 @@ video {
 .torii-box-one p {
     padding: 1.5px;
 }
+
 /* Torii Box One Image */
 .torii-box-one img {
     width: 100%;
@@ -246,6 +247,7 @@ video {
 .torii-box-two p {
     padding: 1.5px;
 }
+
 /* Torii Box Two Header */
 .torii-box-two h4 {
     font-size: 130%;
@@ -327,11 +329,11 @@ video {
 
 #network-list {
     text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
 }
 
 #network-list i {
@@ -341,7 +343,7 @@ video {
 }
 
 footer {
-    background-color:azure;
+    background-color: azure;
     padding: 20px 0;
 }
 
@@ -380,7 +382,7 @@ footer {
 }
 
 #locations-header {
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
     font-style: italic;
     font-size: 100%;
@@ -409,14 +411,15 @@ footer {
 }
 
 .poem {
-   margin: 20px;
+    margin: 20px;
 }
 
 .margin-change {
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
+
 /*Torii-Box-Three in location.html images*/
 #miyajima-torii {
     object-position: top;
@@ -447,25 +450,25 @@ There are media queries for small mobile screens, medium sized mobile screens, l
 @media screen and (min-width: 280px) {
 
     .torii-box-one p {
-    font-size: 14.5px;
-}
+        font-size: 14.5px;
+    }
 
-.torii-box-two p {
-    font-size: 14.5px;
-}
+    .torii-box-two p {
+        font-size: 14.5px;
+    }
 
-.torii-box-three p  {
-    font-size: 14.5px;
-}
+    .torii-box-three p {
+        font-size: 14.5px;
+    }
 
-.torii-box-three li {
-    font-size: 14.5px;
-}
+    .torii-box-three li {
+        font-size: 14.5px;
+    }
 
-.list-gap {
-    padding: 0.175rem;
+    .list-gap {
+        padding: 0.175rem;
+    }
 }
-} 
 
 /*Media Query for Mobile Devices (320px)*/
 .mobile-view {
@@ -477,16 +480,17 @@ iframe {
 }
 
 /* Image height in index.html */
- #red-torii-image {
+#red-torii-image {
     height: 18%;
- }
+}
 
- #myojin-image {
+#myojin-image {
     height: 15%;
- }
+}
 
 /* CSS purposed to match height of boxes in mobile (location.html)*/
-#meiji-torii, #meiji-torii-two {
+#meiji-torii,
+#meiji-torii-two {
     margin-top: 18px;
     margin-bottom: 18px;
 
@@ -494,34 +498,35 @@ iframe {
 
 /* Media Query for Mobile-M devices and larger (375px) */
 @media screen and (min-width: 375px) {
-   
-   /* The sizing for boxes on the torii boxes in index.html */
+
+    /* The sizing for boxes on the torii boxes in index.html */
     .indexhtml-boxsizing {
-    min-height: 1150px;  
-    
-   }
+        min-height: 1150px;
 
-   /* images */
-   #red-torii-image {
-    height: 20%;
-   }
-   
-   #moss-torii-image {
-    height: 16%;
-   }
+    }
 
-   #myojin-image {
-    height: 20%;
-   }
+    /* images */
+    #red-torii-image {
+        height: 20%;
+    }
+
+    #moss-torii-image {
+        height: 16%;
+    }
+
+    #myojin-image {
+        height: 20%;
+    }
 }
 
 /* Media Query for Mobile-L devices and larger (425px) */
 @media screen and (min-width: 425px) {
-/* Very slight changes to measurements of images to push against the box. */
-#moss-torii-image {
-    height: 17%;
-    
-}
+
+    /* Very slight changes to measurements of images to push against the box. */
+    #moss-torii-image {
+        height: 17%;
+
+    }
 
 }
 
@@ -574,8 +579,15 @@ iframe {
         text-align: center;
     }
 
-    /* This is relating to the torii boxes and their heights */
 
+
+    /* To change container height in index.html only using class selector */
+
+    .indexhtml-boxsizing {
+        height: 1100px;
+    }
+
+    /* This is relating to the torii boxes and their heights */
     .torii-box-one {
         width: 100%;
         max-width: 350px;
@@ -585,7 +597,7 @@ iframe {
         margin: 10px;
         padding: 5px;
     }
-    
+
     .torii-box-two {
         width: 100%;
         max-width: 350px;
@@ -596,7 +608,7 @@ iframe {
         padding: 5px;
     }
 
-    
+
     .torii-box-three {
         width: 100%;
         max-width: 350px;
@@ -619,22 +631,23 @@ iframe {
     }
 
     /* location.html media queries */
-     #locations-hero-text {
+    #locations-hero-text {
         bottom: 30px;
         width: 45%;
         margin: 210px
-     }    
-
-    .tablet-view  {
-        height: 1950px;
-    
     }
+
+    .tablet-view {
+        height: 1950px;
+
+    }
+
     .tablet-view p {
         font-size: 17.5px;
         padding: 3px;
     }
-   
-    /*location.html images/video*/ 
+
+    /*location.html images/video*/
     #crashing-wave-torii {
         object-fit: cover;
     }
@@ -642,18 +655,21 @@ iframe {
     #meiji-torii-two {
         margin-top: 7px;
     }
-    #meiji-torii, #meiji-torii-two {
-      margin-bottom: 0px;
+
+    #meiji-torii,
+    #meiji-torii-two {
+        margin-bottom: 0px;
     }
 
-    #inari-fox-image, #senbon-torii {
+    #inari-fox-image,
+    #senbon-torii {
         margin-top: 7px;
     }
 
     .poem em {
         font-size: 10px;
     }
-    
+
     #inari-fox-image {
         height: 13%;
     }
@@ -679,14 +695,27 @@ iframe {
     }
 
     #myojin-image {
-         height: 16%;
+        height: 16%;
     }
 
     /* Torii Boxes*/
+    /* index.html sizing and images */
+    .indexhtml-boxsizing {
+        height: 1350px;
+    }
     
+    #red-torii-image {
+        height: 20%;
+    }
     
+    #moss-torii-image {
+        height: 15%;
+    }
+
+    
+
     .torii-box-one p {
-    font-size:16px;
+        font-size: 16px;
     }
 
     .torii-box-two p {
@@ -716,7 +745,7 @@ iframe {
     .browser-height {
         height: 1950px;
     }
-    
+
     #senbon-torii {
         height: 260px;
         object-fit: cover;
@@ -726,18 +755,15 @@ iframe {
         height: 15.5em;
     }
 
-   
-   
-   
-   
     /*CSS for locations.html to equal height for browser */
-    #inari-fox-image, #senbon-torii {
+    #inari-fox-image,
+    #senbon-torii {
         margin-top: 15px;
     }
 
 
-/* iframe */
-iframe {
-  height: 360px;
-}
+    /* iframe */
+    iframe {
+        height: 360px;
+    }
 }
