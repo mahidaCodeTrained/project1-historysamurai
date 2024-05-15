@@ -25,24 +25,44 @@ This project is designed to transport you to Japan to learn and wonder at the to
 
 ## Wireframes
 [Include wireframes of your project here]
+Please see the pictures below for the wireframes of this project. The pages index.html and location.html follow the exact same structure so they will be represented with the same wireframe for mobile, tablet and desktop
+
+### Mobile Wireframes
+
+
+
+### Tablet Wireframes
+
+
+
+### Desktop Wireframes
 
 ## Features
 - [List of key features or functionalities]
 - [Another feature]
 
+
+
 ## Usage
 [Instructions on how to use the project or any relevant usage examples]
+
+
 ## User Stories
 1. As a visitor, I want to be able to easily navigate through different sections of the website using the navigation bar.
 2. As a user, I want to view detailed information about the locations featured in the Torii Gates.
 3. As a visitor, I want to explore a gallery showcasing images related to the Torii Gates.
 4. As a user, I want to learn about the history and significance of Torii Gates through informative articles and videos.
 
+
 ## UX
 [Include information about the user experience aspects of your project]
 
+
+
 ## Testing
 [Describe the testing process and methodologies used in your project]
+
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to Torii Gates, please follow these steps:
@@ -52,8 +72,11 @@ Contributions are welcome! If you'd like to contribute to Torii Gates, please fo
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
+
 ## License
 [Include information about the project's license, if applicable]
+
+
 
 ## Contact
 [Provide contact information or instructions on how to reach out for support or inquiries]
