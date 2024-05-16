@@ -93,7 +93,6 @@ nav {
     font-size: 2rem;
 }
 
-
 main {
 
     flex: 1 0 auto;
@@ -537,7 +536,7 @@ form {
     padding-top: 20px;
 }
 
-label {
+ #formbox label {
     color: #794a1f;
     font-weight: bolder;
     background-color: wheat;
