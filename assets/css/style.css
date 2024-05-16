@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* The most general of styles */
 body {
     min-height: 100vh;
@@ -49,16 +48,12 @@ header {
 
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     letter-spacing: 2px;
     text-transform: capitalize;
     color: #000000;
     font-family: "EB Garamond", serif;
     font-weight: 700;
-
-
 }
 
 #header-logo {
@@ -509,9 +504,9 @@ iframe {
 }
 
 #form-container {
-      height: 950px;
-      width: 100%;
-     border: 2px solid black;
+    height: 950px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 #form-header {
@@ -533,7 +528,7 @@ iframe {
 #radio-boxes h2 {
     color: rgb(116, 85, 49);
     text-transform: uppercase;
-    
+
 }
 
 
@@ -546,12 +541,12 @@ label {
     color: #794a1f;
     font-weight: bolder;
     background-color: wheat;
-   
+
 }
 
 input {
     margin: 10px;
-    
+
 }
 
 select {
@@ -569,6 +564,7 @@ input[type=submit] {
     height: 40px;
     cursor: pointer;
 }
+
 /* psuedo classes hover */
 input[type=submit]:hover {
     background-color: #c0dee5;
@@ -776,8 +772,6 @@ and then later tablet and desktop. */
         text-align: center;
     }
 
-
-
     /* To change container height in index.html only using class selector */
 
     .indexhtml-boxsizing {
@@ -804,7 +798,6 @@ and then later tablet and desktop. */
         margin: 10px;
         padding: 5px;
     }
-
 
     .torii-box-three {
         width: 100%;
@@ -881,34 +874,33 @@ and then later tablet and desktop. */
     #photos {
         column-count: 2;
     }
-    
+
     /* gallery.html form */
-   label {
-    font-size: 20px;
-   }
+    label {
+        font-size: 20px;
+    }
 
-   input {
-    width: 60%;
-   }
+    input {
+        width: 60%;
+    }
 
-   #radio-boxes {
-    width: 90%;
-    margin-left: 35px;
-    margin-bottom: 40px;
-   }
+    #radio-boxes {
+        width: 90%;
+        margin-left: 35px;
+        margin-bottom: 40px;
+    }
 
-  
 
-   #radio-boxes input {
-    width: 5%;
-   }
 
-   input[type=submit] {
-    width: 50%;
-    height: 70px;
-   }
+    #radio-boxes input {
+        width: 5%;
+    }
+
+    input[type=submit] {
+        width: 50%;
+        height: 70px;
+    }
 }
-
 
 /* Media Query for screen sizes (992px or larger) */
 @media screen and (min-width: 992px) {
@@ -1014,7 +1006,7 @@ and then later tablet and desktop. */
         text-transform: uppercase;
 
     }
-    
+
     #photos {
         column-count: 3;
     }
@@ -1023,17 +1015,44 @@ and then later tablet and desktop. */
         margin-top: 0;
     }
 
-    #browser-pic1, #browser-pic2 {
-    margin-top: 450px;
+    #browser-pic1,
+    #browser-pic2 {
+        margin-top: 450px;
     }
-    
+
     /* Form in gallery.html */
-   
+
+    #form-header {
+        font-size: 160%;
+    }
+
+    input {
+        width: 50%;
+        height: 35px;
+    }
+
+    select {
+        width: 50%;
+    }
+
+    #radio-boxes {
+        margin-left: 55px;
+    }
+
+    #radio-boxes input {
+        height: 20px;
+    }
+
+    textarea {
+        width: 70%;
+    }
 }
 
 /* Media Query for Larger Desktops */
 @media screen and (min-width: 993px) {
-    #big-browser-pic1, #big-browser-pic2 {
+
+    #big-browser-pic1,
+    #big-browser-pic2 {
         margin-top: 450px;
     }
 }
