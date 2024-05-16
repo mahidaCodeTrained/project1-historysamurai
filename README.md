@@ -25,7 +25,7 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 
 | Screenshot 1 | Screenshot 2 | | Screenshot 3 |
 | :---: | :---: | :---: |
-| ![screenshot](documentation/mockups/gallery.htmlpic.png) | ![screenshot](documentation/mockups/locations.htmlpic.png) | ![screenshot](documentation/mockups/gallery.htmlpic.png) |
+| [screenshot](documentation/mockups/gallery.htmlpic.png) | [screenshot](documentation/mockups/locations.htmlpic.png) | [screenshot](documentation/mockups/gallery.htmlpic.png) |
 
 
 ## Wireframes
