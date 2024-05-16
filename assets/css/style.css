@@ -490,6 +490,35 @@ iframe {
     line-height: 0;
 }
 
+/*  gallery.html form */
+
+#formbox {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(248, 225, 163, 0.7);
+    padding: 15px;
+}
+
+#form-container {
+      height: 550px;
+      width: 100%;
+      background-color: rgba(192,222,229, 0.5)
+}
+
+form {
+    padding: 40px;
+    text-align: center;
+    font-size: 19px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+}
+
 /*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
 There are media queries for small mobile screens, medium sized mobile screens, large mobile screens, tablets and finally the browser.*/
 
