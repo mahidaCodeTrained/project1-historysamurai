@@ -22,7 +22,7 @@
 
 ## Mockup Screenshots
 These are the mockup screenshots of the three pages index.html, locations.html and gallery.html created using the "Am I Responsive" website.
- ![screenshot](documentation/mockups/gallery.htmlpic.png)  ![screenshot](documentation/mockups/locations.htmlpic.png) | 
+ ![screenshot](documentation/mockups/gallery.htmlpic.png)  ![screenshot](documentation/mockups/locations.htmlpic.png) ![screenshot](documentation/mockups/gallery.htmlpic.png)
 
 
 
