@@ -104,6 +104,22 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 - When I was designing this website, I wanted to make sure that the text looks very clean and professional. Montserrat was the font that I was looking for because of it's
 modern design and easy on the eye visibility. 
 
+## Tools & Technologies 
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the content of the site.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used to style the html that it within the site.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to give the website a responsive design.
+- [Git](https://git-scm.com/) used to control the site via "git add, git commit -m, git push" and etc.
+- [GitHub](https://github.com/) was used to store my code and acess my project repository. 
+- [GitHub Pages](https://pages.github.com/) was used to deploy my site and make it live.
+- [Favicon.cc](https://www.favicon.cc/) was used to create the site favicon.
+- [VScode](https://code.visualstudio.com/) used as an IDE through GitPod.
+- [Gitpod](https://www.gitpod.io/) used as the IDE to work and code the site.
+- [Font Awesome](https://fontawesome.com/) used to obtain logos such as the torii gate logo in the mobile navigation.
+- [Google Fonts](https://fonts.google.com/) used to import fonts into the site.
+- [ezgif](https://ezgif.com/optiwebp) used to compress images and videos to small file sizes.
+
+
 ## Testing
 [Describe the testing process and methodologies used in your project]
 
