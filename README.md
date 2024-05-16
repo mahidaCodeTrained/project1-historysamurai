@@ -21,7 +21,12 @@
 - [Contact](#contact)
 
 ## Mockup Screenshots
-[Include mockup screenshots of your project here]
+These are the mockup screenshots of the three pages index.html, locations.html and gallery.html created using the "Am I Responsive" website.
+
+| Screenshot 1 | Screenshot 2 |  | Screenshot 3 |
+| :---: | :---: | :---: |
+| ![screenshot](documentation/mockups/gallery.htmlpic.png) | ![screenshot](documentation/mockups/locations.htmlpic.png) | ![screenshot](documentation/mockups/gallery.htmlpic.png) |
+
 
 ## Wireframes
 [Include wireframes of your project here]
@@ -88,6 +93,10 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 ![screenshot](documentation/ux/coolersscreenshot.png)
 
 </details>
+
+### Typography 
+
+- I used two fonts in particular in this project. They were imported by the use of Google Fonts. 
 
 ## Testing
 [Describe the testing process and methodologies used in your project]
