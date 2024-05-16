@@ -85,9 +85,9 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 <details>
 <summary>Click this for a Coolers screenshot</summary>
   
-![screenshot] (documentation/ux/coolersscreenshot.png)
+![screenshot](documentation/ux/coolersscreenshot.png)
 
-
+</details>
 
 ## Testing
 [Describe the testing process and methodologies used in your project]
