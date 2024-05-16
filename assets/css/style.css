@@ -493,32 +493,34 @@ iframe {
 /*  gallery.html form */
 
 #formbox {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background-color: rgba(248, 225, 163, 0.7);
     padding: 15px;
 }
 
 #form-container {
-      height: 550px;
+      height: 850px;
       width: 100%;
-      background-color: rgba(192,222,229, 0.5)
+      border: 2px solid black;
+}
+
+#form-header {
+    color: #794a1f;
+    font-size: 110%;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 form {
-    padding: 40px;
     text-align: center;
-    font-size: 19px;
+    padding-top: 50px;
 }
 
 label {
-    font-size: 25px;
+    color: #794a1f;
+    font-weight: bolder;
 }
-
-input {
-    font-size: 20px;
-}
-
 /*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
 There are media queries for small mobile screens, medium sized mobile screens, large mobile screens, tablets and finally the browser.*/
 
