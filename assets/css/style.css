@@ -325,7 +325,7 @@ video {
     padding: 0.2rem;
 }
 
-/* CSS for the footer */
+/* CSS for the footer element on all pages */
 
 #network-list {
     text-align: center;
@@ -449,7 +449,7 @@ iframe {
     background-image: url(../images/su-san-lee-E_eWwM29wfU-unsplash.jpg);
 
     /* The height of the parralax */
-    min-height: 1900px;
+    min-height: 2900px;
 
     /* Creating the Effect */
     background-attachment: fixed;
@@ -483,6 +483,7 @@ iframe {
 #photos img {
     width: 90%;
     margin-left: 15px;
+    line-height: 1em;
 }
 
 #photos {
@@ -613,6 +614,23 @@ iframe {
 
     }
 
+}
+
+/* This media query ONLY relates to the gallery.html page. This CSS is designed to make columns so the images on gallery.html are fully responsive on landscape phones.
+and then later tablet and desktop. */
+
+/* Media Query unqiue to gallery.html for landscape mobile phones (576px and larger) */
+@media screen and (min-width: 576px) {
+
+    #photos {
+        column-count: 2;
+        gap: 20px;
+        
+    }
+
+    #margin-picture {
+        margin-top: 450px;
+    }
 }
 
 /* Media Query for tablet devices and larger (768px) */
