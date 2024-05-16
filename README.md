@@ -1,6 +1,6 @@
 # Torii Gates
 
--This project is designed to transport you to Japan to learn and wonder at the torii gates that rule over Japan giving spirituality,
+This project is designed to transport you to Japan to learn and wonder at the torii gates that rule over Japan giving spirituality,
  emotion and a sense of mystical resonance. The project 'Torii Gates' contains three pages with two being highly informative. Although the two pages are highly informative they set the tone and offer users a chance to wonder and gaze at images of the torii gates that this project is concerned with.
 
  As stated this project has three pages consisting of :
@@ -28,11 +28,16 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 
 ## Wireframes
 [Include wireframes of your project here]
-Please see the pictures below for the wireframes of this project. The pages index.html and location.html follow the exact same structure so they will be represented with the same wireframe for mobile, tablet and desktop
+ Please see the pictures below for the wireframes of this project. These wireframes will showcase the pages layout, and structure in the project's inception period. 
+ - These are wireframes in their inception giving a blueprint as to how the website will look and feel. 
+ - Since the creation of these wireframes the website has greatly built upon these wireframes.
+
+ - It is important to note that index.html and locations.html pages follow the exact same structure and layout therefore, only one screenshot of the wireframe of one of the pages will suffice.
 
 ### Mobile Wireframes
-
-
+| index.html/locations.html | gallery.html | 
+| :---: | :---: |
+| ![screenshot](documentation/wireframes/wireframe.mobile.jpg) | ![screenshot](documentation/wireframes/gallery.htmlwireframe-mobile.png) | 
 
 ### Tablet Wireframes
 
@@ -40,21 +45,15 @@ Please see the pictures below for the wireframes of this project. The pages inde
 
 ### Desktop Wireframes
 
-## Features
-- [List of key features or functionalities]
-- [Another feature]
-
-
-
-## Usage
-[Instructions on how to use the project or any relevant usage examples]
-
 
 ## User Stories
-1. As a visitor, I want to be able to easily navigate through different sections of the website using the navigation bar.
-2. As a user, I want to view detailed information about the locations featured in the Torii Gates.
-3. As a visitor, I want to explore a gallery showcasing images related to the Torii Gates.
-4. As a user, I want to learn about the history and significance of Torii Gates through informative articles and videos.
+1. As a new user, I want to be able to easily navigate through the pages of the website.
+2. As a new user, I want to see the most famous torii gates in Japan.
+3. As a new user, I want to explore a gallery showcasing images related to the torii Gates.
+4. As a new user, I want to learn about the history and meaning behind the torii gates.
+5. As a new user, I want to learn about the history and significance of Torii Gates through informative articles and videos.
+6. As a new user, I want to know where I can learn more about torii gates after exahusting the website.
+
 
 
 ## UX
@@ -95,6 +94,11 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 ### Typography 
 
 - I used two fonts in particular in this project. They were imported by the use of Google Fonts. 
+- Some header elements were a font called [EB Garamond](https://fonts.google.com/specimen/EB+Garamond).
+- However, most of the text within this project including most of the headers are in [Montserrat](https://fonts.google.com/specimen/Montserrat).
+
+- When I was designing this website, I wanted to make sure that the text looks very clean and professional. Montserrat was the font that I was looking for because of it's
+modern design and easy on the eye visibility. 
 
 ## Testing
 [Describe the testing process and methodologies used in your project]
