@@ -624,12 +624,14 @@ and then later tablet and desktop. */
 
     #photos {
         column-count: 2;
-        gap: 20px;
-        
     }
 
     #margin-picture {
         margin-top: 450px;
+    }
+
+    .image-gap {
+        margin: 10px;
     }
 }
 
@@ -782,6 +784,11 @@ and then later tablet and desktop. */
     #miyajima-torii-three {
         height: 12%;
     }
+
+    /* gallery.html */
+    #photos {
+        column-count: 2;
+    }
 }
 
 
@@ -888,5 +895,26 @@ and then later tablet and desktop. */
         text-align: center;
         text-transform: uppercase;
 
+    }
+    
+    #photos {
+        column-count: 3;
+    }
+
+    #margin-picture {
+        margin-top: 0;
+    }
+
+    #browser-pic1, #browser-pic2 {
+    margin-top: 450px;
+    }
+
+   
+}
+
+/* Media Query for Larger Desktops */
+@media screen and (min-width: 993px) {
+    #big-browser-pic1, #big-browser-pic2 {
+        margin-top: 450px;
     }
 }
