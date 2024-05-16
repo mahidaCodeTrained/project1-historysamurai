@@ -110,26 +110,31 @@ modern design and easy on the eye visibility.
 
 ## Deployment 
 
+This site was deployed via. GitHub Pages.
 
+- To deploy the site and make it live follow these steps.
+- Once you are at the [GitHub repository](https://github.com/mahidaCodeTrained/project1-toriigate) go through the navigation tab until you come across Settings.
+- In the Settings there should be a segment that says GitHub Pages that you must click to deploy.
+- Once you have clicked GitHub Pages, you need to select the "main branch" under build and deployment. 
+- When you have selected the main branch then you should save upon doing so the page will refresh indicating a successful deployment.
 
-## Contributing
-Contributions are welcome! If you'd like to contribute to Torii Gates, please follow these steps:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
+ The live page to this project can be found [here](https://mahidacodetrained.github.io/project1-toriigate/)
 
+### Local Deployment 
 
-## License
-[Include information about the project's license, if applicable]
+- This project can be saved and stored into your local device via forking or cloning.
 
+### Cloning 
 
+This repository can be cloned by following these steps.
 
-## Contact
-[Provide contact information or instructions on how to reach out for support or inquiries]
-
-
+1. Go to the [GitHub repository](https://github.com/mahidaCodeTrained/project1-toriigate) for this project.
+2. There should be a code button telling you if you would like to clone this project.
+3. It should tell you if you would like to clone via. HTTPS, SSH or a GitHub CLI, once you have decided click the copy button to copy the url of the project.
+4. Open Git Bash or a Terminal
+5. Once inside, change the working directory to the one where you want the cloned directory that you have copied from the GitHub repository.
+6. In the IDE terminal, you can now clone my repository by inputting this command:
+   - `git clone https://github.com/mahidaCodeTrained/project1-toriigate`
 
 
 
