@@ -509,48 +509,77 @@ iframe {
 }
 
 #form-container {
-      height: 850px;
+      height: 950px;
       width: 100%;
      border: 2px solid black;
 }
 
 #form-header {
-    color: #ffffff;
+    color: rgb(116, 85, 49);
     font-size: 110%;
     font-weight: bolder;
     text-transform: uppercase;
+    background-color: rgba(248, 225, 163, 0.7);
+}
+
+#radio-boxes {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 15px;
+    background-color: rgba(248, 225, 163, 0.7);
+}
+
+#radio-boxes h2 {
+    color: rgb(116, 85, 49);
+    text-transform: uppercase;
+    
 }
 
 
 form {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 label {
     color: #794a1f;
     font-weight: bolder;
     background-color: wheat;
+   
 }
 
 input {
     margin: 10px;
+    
 }
-
 
 select {
     margin: 5px;
+    width: 60%;
 }
 
 textarea {
     width: 100%;
-    
 }
 
 /* CSS to showcase how to style input types only showcasing the button here */
-input [type=submit] {
+input[type=submit] {
     width: 40%;
     height: 40px;
+    cursor: pointer;
+}
+/* psuedo classes hover */
+input[type=submit]:hover {
+    background-color: #c0dee5;
+}
+
+input:hover {
+    background-color: #c0dee5;
+}
+
+textarea:hover {
+    background-color: #c0dee5;
 }
 
 /*The following CSS from here in the file is all for media queries to change the look of the site on all device sizes so it is responsive.
@@ -852,6 +881,32 @@ and then later tablet and desktop. */
     #photos {
         column-count: 2;
     }
+    
+    /* gallery.html form */
+   label {
+    font-size: 20px;
+   }
+
+   input {
+    width: 60%;
+   }
+
+   #radio-boxes {
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 40px;
+   }
+
+  
+
+   #radio-boxes input {
+    width: 5%;
+   }
+
+   input[type=submit] {
+    width: 50%;
+    height: 70px;
+   }
 }
 
 
@@ -971,7 +1026,8 @@ and then later tablet and desktop. */
     #browser-pic1, #browser-pic2 {
     margin-top: 450px;
     }
-
+    
+    /* Form in gallery.html */
    
 }
 
