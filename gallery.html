@@ -53,8 +53,8 @@
                 <p class="italix-style text-center slightpadding">Enjoy this highly detailed gallery which will give you
                     a taste of the torii gates of Japan!</p>
             </div>
-
-
+          
+            <!--The photos will be held within this div container-->
             <div id="photos">
                 <img id="initial-picture" src="assets/images/kouji-tsuru-tuskYdeKoYU-unsplash(1).webp"
                     alt="An image of a torii gate in a lake with the sun setting">
@@ -64,7 +64,7 @@
                     alt="An image of a torii gate with the mountain overhanging">
                 <img class="image-gap" src="assets/images/perry-merrity-ii-9z4Oh_XmlsI-unsplash.webp"
                     alt="An image of a pink torii gate in a field of pink flowers">
-                <img class="image-gap" src="assets/images/robin-inizan-NkjBHu7lc-I-unsplash (1).webp"
+                <img class="image-gap" src="assets/images/robin-inizan-NkjBHu7lc-I-unsplash.webp"
                     alt="An image of a torii gate with a mountain in sight">
                 <img class="image-gap" id="big-browser-pic1" src="assets/images/venus-major-Clf-We2tsk0-unsplash.webp"
                     alt="An image of a torii gate high up in the sky">
@@ -85,6 +85,8 @@
                 <img class="image-gap" src="assets/images/daniel-bernard-F3v_8etT6Lc-unsplash.webp"
                     alt="An image of a woman walking within the torii gates">
             </div>
+           
+            <!-- This is a small form for users to complete if they'd like to know more about torii gates in Japan -->
             <section id="formbox">
                 <div id="form-container">
                     <h2 class="text-center text-underline slightpadding" id="form-header">
@@ -98,21 +100,30 @@
                         <input type="email" id="email" name="email"><br><br>
                         <label for="country">Country:</label><br>
                         <select id="country" name="country">
-                            <option value="USA">United States</option>
-                            <option value="Canada">Canada</option>
                             <option value="UK">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                            <option value="USA">United States</option>
                             <option value="Australia">Australia</option>
-                            <!-- Add more options as needed -->
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="India">India</option>
+                            <option value="Other">Other</option>
+                            <!-- Add more options as needed for the above select element if anybody would like to replicate this project -->
                         </select><br><br>
-                        <label for="interests">What interested you the most?:</label><br>
+                        
+                        <div id="radio-boxes">
+                        <h2 class="text-center slightpadding" id="formh3">What interested you the most about the site?</h2>
                         <input type="radio" id="interest1" name="interest" value="history of the torii gates">
                         <label for="interest1"> History of Torii Gates</label><br>
                         <input type="radio" id="interest2" name="interest" value="the effect of shintoism">
-                        <label for="interest2"> The effect of Shintoism</label><br>
-                        <input type="radio" id="interest3" name="interest" value="The Gallery">
-                        <label for="interest3"> The Gallery</label><br><br>
+                        <label for="interest2"> The Effect of Shintoism</label><br>
+                        <input type="radio" id="interest3" name="interest" value="The Gallery Portion">
+                        <label for="interest3"> The Gallery Portion</label>
+                        <br><br>
+                        </div>
+                        
                         <label for="message"> Leave me some Feedback:</label><br>
-                        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                        <textarea id="message" name="message" rows="9" cols="50"></textarea><br><br>
                         <input type="submit" value="Submit">
                     </form>
                 </div>
@@ -142,7 +153,7 @@
 
         </ul>
     </footer>
-
+<!-- Font Awesome script used in the end of the code underneath the ending body and html tags to load in faster on the page -->
     <script src="https://kit.fontawesome.com/6cc20290e7.js" crossorigin="anonymous"></script>
 </body>
 
