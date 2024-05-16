@@ -76,7 +76,17 @@ gives off a dark brown similar to wood. These were planned beforehand as torii g
 
 - `rgba(248, 225, 163, 0.7)` was another color that was used but mainly as a background to hero images. The opacity was put at 0.7 to make sure that the image was still visible behind this background color. 
 
-- `white` was used for the text on this project as it complements the dark brown color `794a1f` gives off within the container. It was also another preplanned color as many torii gates in Japan are white so in order to make this project feel transportitive these colors were used in unison to give off that effect.
+- `white` was used for the text on this project as it complements the dark brown color `794a1f` gives off within the container. It was also another preplanned color as many torii gates in Japan are white so in order to make this project feel transportitive, these colors were used in unison to give off that effect.
+
+`aquamarine` was used to color the emphasis elements in the project. This color was not determined before the project began. It was used to give a good user experience to 
+visitors of the site so that important words, phrases stick would stick with them.
+
+I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate the color pallete.
+<details>
+<summary>Click this for a Coolers screenshot</summary>
+  
+![screenshot] (documentation/ux/coolersscreenshot.png)
+
 
 
 ## Testing
