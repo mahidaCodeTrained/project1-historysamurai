@@ -63,6 +63,9 @@ Please see the pictures below for the wireframes of this project. The pages inde
 [Describe the testing process and methodologies used in your project]
 
 
+## Deployment 
+
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to Torii Gates, please follow these steps:
@@ -85,7 +88,11 @@ Contributions are welcome! If you'd like to contribute to Torii Gates, please fo
 
 
 
-
+###  Acknowledgements
+- I would like to thank my Code Institute mentor Alan Bushell 
+- I would like to thank my stand-in mentor at Code Institute; Chris Quinn
+- I would like to thank the Code Institue slack community.
+- I would like to thank my family and friends for helping support me through my first ever project 
 
 
 
