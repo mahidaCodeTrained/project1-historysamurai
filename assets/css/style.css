@@ -488,19 +488,20 @@ iframe {
 /*  gallery.html form */
 /* Formbox will be a parralax */
 #formbox {
-    height: 900px;
+    height: 1000px;
     width: 100%;
     /* The image used */
     background-image: url(../images/wallpaperflare.com_wallpaper-ezgif.com-optiwebp.webp);
     /* Creating the Effect */
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
-    /* Overflow used to hide horizontal scrollbar */
+    /* Overflow used to hide horizontal and vertical scrollbar in the form */
     overflow-x: hidden;
-    background-position: right;
+    overflow-y: hidden;
+    
 }
 
 #form-container {
@@ -530,7 +531,6 @@ iframe {
     text-transform: uppercase;
 
 }
-
 
 form {
     text-align: center;
