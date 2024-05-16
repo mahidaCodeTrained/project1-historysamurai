@@ -71,6 +71,37 @@
                 <img class="image-gap" src="assets/images/mark-hang-fung-so-6OpKfYl8bwg-unsplash.webp" alt="An image of a towering torii gate with a man underneath">
                 <img class="image-gap" src="assets/images/daniel-bernard-F3v_8etT6Lc-unsplash.webp" alt="An image of a woman walking within the torii gates">
             </div>
+            <section id="formbox">
+                <div id="form-container">
+                    <form action="/submit" method="post">
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="country">Country:</label><br>
+                        <select id="country" name="country">
+                          <option value="USA">United States</option>
+                          <option value="Canada">Canada</option>
+                          <option value="UK">United Kingdom</option>
+                          <option value="Australia">Australia</option>
+                          <!-- Add more options as needed -->
+                        </select><br><br>
+                        <label for="interests">What interested you the most?:</label><br>
+                        <input type="radio" id="interest1" name="interest1" value="sports">
+                        <label for="interest1"> Torii Gates</label><br>
+                        <input type="radio" id="interest2" name="interest2" value="music">
+                        <label for="interest2"> Locations of Famous Torii's</label><br>
+                        <input type="radio" id="interest3" name="interest3" value="movies">
+                        <label for="interest3"> Gallery</label><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+                    
+           </section>
         </section>
     </main>
 
