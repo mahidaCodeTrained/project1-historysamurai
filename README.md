@@ -66,17 +66,17 @@ Please see the pictures below for the wireframes of this project. The pages inde
 - The project uses colors widely associated with torii gates in Japan to achieve this transportitive effect. 
 - The colors that were used are:-
 
--  '#794a1f' this color was mainly used to create the box containers that holds the text and images within it. This color however, was used in other places in the project such as in the hero sections and nav elements and later in the gallery's form.
+-  `#794a1f` this color was mainly used to create the box containers that holds the text and images within it. This color however, was used in other places in the project such as in the hero sections and nav elements and later in the gallery's form.
 
-- '#c0dee5' this color was used as background-color for elements such as the header and the div that contains the main boxes where information is displayed. This color
+- `#c0dee5` this color was used as background-color for elements such as the header and the div that contains the main boxes where information is displayed. This color
 was complemented with the color above '794a1f' many times during this project. 
 
-- These colors were planned to be used before the projects inception. The sky blue that 'c0dee5' gives is akin to a light sky or a light body of water whilst '794a1f'
+- These colors were planned to be used before the projects inception. The sky blue that `c0dee5` gives is akin to a light sky or a light body of water whilst `794a1f`
 gives off a dark brown similar to wood. These were planned beforehand as torii gates are often made out of wood and images online show torii gates whilst the blue sky is in sight.
 
-- 'rgba(248, 225, 163, 0.7)' was another color that was used but mainly as a background to hero images. The opacity was put at 0.7 to make sure that the image was still visible behind this background color. 
+- `rgba(248, 225, 163, 0.7)` was another color that was used but mainly as a background to hero images. The opacity was put at 0.7 to make sure that the image was still visible behind this background color. 
 
--
+- `white` was used for the text on this project as it complements the dark brown color `794a1f` gives off within the container. It was also another preplanned color as many torii gates in Japan are white so in order to make this project feel transportitive these colors were used in unison to give off that effect.
 
 
 ## Testing
