@@ -40,11 +40,15 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 | ![screenshot](documentation/wireframes/wireframe.mobile.jpg) | ![screenshot](documentation/wireframes/gallery.htmlwireframe-mobile.png) | 
 
 ### Tablet Wireframes
-
+| index.html/locations.html | gallery.html | 
+| :---: | :---: |
+| ![screenshot](documentation/wireframes/wireframe%20tablet.jpg) | ![screenshot](documentation/wireframes/gallery.htmlwireframe-tablet.png) | 
 
 
 ### Desktop Wireframes
-
+| index.html/locations.html | gallery.html | 
+| :---: | :---: |
+| ![screenshot](documentation/wireframes/wireframe%20desktop.jpg) | ![screenshot](documentation/wireframes/gallery.htmlwireframe-desktop.png) |
 
 ## User Stories
 1. As a new user, I want to be able to easily navigate through the pages of the website.
