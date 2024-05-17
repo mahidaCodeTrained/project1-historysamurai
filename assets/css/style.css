@@ -45,7 +45,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 h1, h2, h3 {
@@ -66,7 +65,6 @@ header a {
     color: #794a1f;
     font-weight: 700;
 }
-
 
 /* Navigation Bar Design */
 nav {
@@ -165,8 +163,6 @@ main {
     color: white;
     font-style: italic;
     padding: 10px;
-
-
 }
 
 .container {
@@ -175,8 +171,6 @@ main {
     width: 100%;
     box-shadow: 0px 2px 2px 0 #000000;
     color: white;
-
-
 }
 
 video {
@@ -195,7 +189,6 @@ video {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
-
 }
 
 /* These are styles directly related to the torii-box-one div */
@@ -327,7 +320,6 @@ video {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
 }
 
 #network-list i {
@@ -411,7 +403,6 @@ footer {
 .margin-change {
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 /*Torii-Box-Three in location.html images*/
@@ -450,7 +441,6 @@ iframe {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #gallery-parralax-text {
@@ -466,7 +456,6 @@ iframe {
 #gallery-header {
     color: #794a1f;
     font-weight: bolder;
-
 }
 
 #initial-picture {
@@ -500,7 +489,6 @@ iframe {
     /* Overflow used to hide horizontal and vertical scrollbar in the form */
     overflow-x: hidden;
     overflow-y: hidden;
-    
 }
 
 #form-container {
@@ -540,7 +528,6 @@ form {
     color: #794a1f;
     font-weight: bolder;
     background-color: wheat;
-
 }
 
 input {
@@ -632,7 +619,6 @@ iframe {
 #meiji-torii-two {
     margin-top: 18px;
     margin-bottom: 18px;
-
 }
 
 /* gallery.html */
@@ -698,7 +684,6 @@ iframe {
     /* Very slight changes to measurements of images to push against the box. */
     #moss-torii-image {
         height: 17%;
-
     }
 
 }
@@ -936,8 +921,6 @@ and then later tablet and desktop. */
     #moss-torii-image {
         height: 15%;
     }
-
-
 
     .torii-box-one p {
         font-size: 16px;
