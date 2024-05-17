@@ -68,5 +68,16 @@ Return to the [README.md](README.md) file.
 
 ## Lighthouse
 
+I conducted lighthouse audits on all of the pages on mobile and desktop to see the results.
+
+| Page | Mobile | Desktop | Notes |
+| :---: | :---: | :---: | :---: |
+| index.html | ![screenshot](documentation/lighthouse/indexhtml-lighthouse-mobile.png) | ![screenshot](documentation/lighthouse/indexhtml-lighthouse-desktop.png) | It is overall a great performance, there are a few little hiccups on mobile but it's still performing. |
+| locations.html | ![screenshot](documentation/lighthouse/locationshtml-lighthouse-mobile.png) | ![screenshot](documentation/lighthouse/locationshtml-lighthouse-desktop.png) | It is great on desktop almost perfect. Mobile performance although not bad can be improved but there are too many third party cookies. |
+| gallery.html | ![screenshot](documentation/lighthouse/galleryhtml-lighthouse-mobile.png) | ![screenshot](documentation/lighthouse/galleryhtml-lighthouse.png) | The load times on desktop are great, mobile suffers due to many images and the parralax. |
+
+- The site is performing great on all accounts in desktop. 
+- The best practices are low due to the iframes in locations.html. 
+- Mobile performances suffers due to the hero images and many images to render.
 
 
