@@ -12,13 +12,12 @@ This project is designed to transport you to Japan to learn and wonder at the to
 - [Mockup Screenshots](#mockup-screenshots)
 - [Wireframes](#wireframes)
 - [Features](#features)
-- [Usage](#usage)
 - [User Stories](#user-stories)
 - [UX](#ux)
+- [Tools & Technologies](#tools--technologies)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
 
 ## Mockup Screenshots
 These are the mockup screenshots of the three pages index.html, locations.html and gallery.html created using the "Am I Responsive" website.
@@ -49,6 +48,20 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 | index.html/locations.html | gallery.html | 
 | :---: | :---: |
 | ![screenshot](documentation/wireframes/wireframe%20desktop.jpg) | ![screenshot](documentation/wireframes/gallery.htmlwireframe-desktop.png) |
+
+## Features
+
+| Feature | Description | Screenshot |
+| :---: | :---: | :---: |
+| **Navigation Logo** | The navigation bar on mobile devices is behind a torii gate which drops down the menu | ![screenshot](documentation/features/navigation.png) |
+| **Navigation Hover** | The navigation on desktop when hovered upon is highlighted in a red color showcasing that it is something interactable | ![screenshot](documentation/features/navigationdesktop.png) |
+| **Video Controls** | The video element has controls where you can unmute, fullscreen or stop the video | ![screenshot](documentation/features/controls.png) |
+| **Footer Links** | The footer element has clickable links that are logos from FontAwesome | ![screenshot](documentation/features/logolinks.png) |
+| **iframe** | An iframe element was used as a feature in this project which is scrollable with your fingers on tablet, mobile and with mouse on desktop | ![screenshot](documentation/features/iframejapan.png) |
+| **Hover Submit Button** | The form in gallery.html has input elements all with a hover element to change the background color | ![screenshot](documentation/features/hoversubmit.png) |
+
+### Future Features
+
 
 ## User Stories
 1. As a new user, I want to be able to easily navigate through the pages of the website.
@@ -154,7 +167,7 @@ This repository can be cloned by following these steps.
 
 
 
-###  Acknowledgements
+##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
 - I would like to thank my stand-in mentor at Code Institute; [Chris Quinn] (https://github.com/10xOXR)
 - I would like to thank the Code Institue [slack community] (https://code-institute-room.slack.com)
