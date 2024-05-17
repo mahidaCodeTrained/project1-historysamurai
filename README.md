@@ -180,7 +180,7 @@ This repository can be cloned by following these steps.
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Font Awesome](https://fontawesome.com/) | index.html, location.html, gallery.html | helped me make torii logos for the navigation |
-| [Pexels](https://www.pexels.com/) | index.html, location.html, gallery.html | "This site gave me great images to use in the website" |
+| [Pexels](https://www.pexels.com/) | index.html, location.html, gallery.html | "This site gave me great images and videos to use in the website" |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) | gallery.html | taught me how to make a parralax |
 | [YouTube](https://www.youtube.com/watch?v=oYRda7UtuhA&t=3271s) | index.html, locations.html, gallery.html | Although, I didn't structure my page like this video it helped me get a grasp of what I'm doing. |
 | [Unsplash](https://unsplash.com/) | index.html, locations.html, gallery.html | This website provided me great images to use. |
