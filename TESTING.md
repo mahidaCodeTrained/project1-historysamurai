@@ -42,6 +42,17 @@ Return to the [README.md](README.md) file.
 | :---: | :---: | :---: | :---: |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmahidacodetrained.github.io%2Fproject1-toriigate%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/testing/cssjigsaw.png) | Passed all checks |
 
+## Browser Compatibility
+
+- To make sure that the site is looking good we have to look at how the site is displayed on different browser engines. 
+- We will look at Google Chrome, Firefox and Microsoft Edge.
+
+| Engine | Screenshot | Comments |
+| :---: | :---: | :---: |
+| Chrome | ![screenshot](documentation/testing/chromebrowsertest.png) ![screenshot](documentation/testing/chromebrowsertest2.png) | Looks Good on Chrome |
+| Firefox | ![screenshot](documentation/testing/firefoxbrowsertest.png) ![screenshot](documentation/testing/firefoxbrowsertest2.png) | Looks Good on Firefox |
+| Microsoft Edge | ![screenshot](documentation/testing/microsoftedgebrowser.png) ![screenshot](documentation/testing/microsoftedgebrowser2.png) | Missing semicolons |
+
 
 
 
