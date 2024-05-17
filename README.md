@@ -191,7 +191,7 @@ This repository can be cloned by following these steps.
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
 - I would like to thank my stand-in mentor at Code Institute; [Chris Quinn] (https://github.com/10xOXR)
 - I would like to thank the Code Institue [slack community] (https://code-institute-room.slack.com)
-- I would like to thank my family and friends for helping support me through my first ever project 
+- I would like to thank my family and friends for helping support me through my first ever project.
 
 
 
