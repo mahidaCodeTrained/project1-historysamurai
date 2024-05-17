@@ -51,7 +51,7 @@ Return to the [README.md](README.md) file.
 | :---: | :---: | :---: |
 | Chrome | ![screenshot](documentation/testing/chromebrowsertest.png) ![screenshot](documentation/testing/chromebrowsertest3.png) | Looks Good on Chrome |
 | Firefox | ![screenshot](documentation/testing/firefoxbrowsertest.png) ![screenshot](documentation/testing/firefoxbrowsertest2.png) | Looks Good on Firefox |
-| Microsoft Edge | ![screenshot](documentation/testing/microsoftedgebrowser.png) ![screenshot](documentation/testing/microsoftedgebrowser2.png) | Missing semicolons |
+| Microsoft Edge | ![screenshot](documentation/testing/microsoftedgebrowser.png) ![screenshot](documentation/testing/microsoftedgebrowser2.png) | Looks Good on Edge |
 
 
 
