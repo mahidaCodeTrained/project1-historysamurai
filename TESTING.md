@@ -93,5 +93,14 @@ I conducted lighthouse audits on all of the pages on mobile and desktop to see t
 
 ## Bugs
  
- I've encountered no bugs at the time of making this README.md file. 
+ I've encountered no significant bugs at the time of making this README.md file. 
+
+ ### Unfixed Bugs
+
+ - There were only two bugs that I've ever encountered whilst making and checking the deployed live site. 
+ 1. On Mobile devices, the parralax in gallery.html sometimes doesn't react the way as intended and zooms in and out. 
+ - This could be an issue with the image itself or perhaps a shortcoming of the way I handeled the CSS. 
+2. The next bug I encountered was on certain mobile phones the boxes that contain all of the content such as text and images, go outside the box depsite CSS giving the device size clear instructions of height. 
+- This could be due to the server not processing fast enough causing the site to bug.
+- This could be due to images and videos loading in. 
 
