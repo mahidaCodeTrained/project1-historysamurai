@@ -17,6 +17,7 @@ This project is designed to transport you to Japan to learn and wonder at the to
 - [Tools & Technologies](#tools--technologies)
 - [Testing](#testing)
 - [Deployment](#deployment)
+- [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
 ## Mockup Screenshots
@@ -186,6 +187,7 @@ This repository can be cloned by following these steps.
 | [Unsplash](https://unsplash.com/) | index.html, locations.html, gallery.html | This website provided me great images to use. |
 | [Japan Wonder Travel Blog](https://en.wikipedia.org/wiki/List_of_short_place_names) | index.html, locations.html  | This website gave me alot of information to use in the pages. |
 | [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
+| [Simon Boylan's GitHub Repo](https://github.com/boderg/your-weather) | README.md, TESTING.md | Took snippets of code from the README.md and TESTING.md to make my tables
 
 ##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
