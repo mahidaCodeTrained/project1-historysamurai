@@ -185,7 +185,7 @@ This repository can be cloned by following these steps.
 | [YouTube](https://www.youtube.com/watch?v=oYRda7UtuhA&t=3271s) | index.html, locations.html, gallery.html | Although, I didn't structure my page like this video it helped me get a grasp of what I'm doing. |
 | [Unsplash](https://unsplash.com/) | index.html, locations.html, gallery.html | This website provided me great images to use. |
 | [Japan Wonder Travel Blog](https://en.wikipedia.org/wiki/List_of_short_place_names) | index.html, locations.html  | This website gave me alot of information to use in the pages. |
-| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) |  | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
+| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
 
 ##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
