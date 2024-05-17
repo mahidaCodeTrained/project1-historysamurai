@@ -9,6 +9,8 @@ This project is designed to transport you to Japan to learn and wonder at the to
  - gallery.html / **As you may have guessed, a gallery page to fully transport the user to Japan with a look on highly detailed images of torii's**
 
  ## Table of Contents
+<details>
+<summary>
 - [Mockup Screenshots](#mockup-screenshots)
 - [Wireframes](#wireframes)
 - [Features](#features)
@@ -19,6 +21,8 @@ This project is designed to transport you to Japan to learn and wonder at the to
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
+</summary>
+</details>
 
 ## Mockup Screenshots
 These are the mockup screenshots of the three pages index.html, locations.html and gallery.html created using the "Am I Responsive" website.
