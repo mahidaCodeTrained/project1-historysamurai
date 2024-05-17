@@ -10,7 +10,7 @@ This project is designed to transport you to Japan to learn and wonder at the to
 
  ## Table of Contents
 <details>
-<summary>
+<summary>Click here for the Table of Contents</summary>
 - [Mockup Screenshots](#mockup-screenshots)
 - [Wireframes](#wireframes)
 - [Features](#features)
@@ -21,7 +21,7 @@ This project is designed to transport you to Japan to learn and wonder at the to
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
-</summary>
+
 </details>
 
 ## Mockup Screenshots
