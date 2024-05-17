@@ -17,7 +17,7 @@ Return to the [README.md](README.md) file.
 
 - [Accessibility](#accessibility)
 
-- [Lighthouse Audit](#lighthouse-audit)
+- [Lighthouse](#lighthouse)
 
 - [Bugs](#bugs)
 
@@ -53,7 +53,20 @@ Return to the [README.md](README.md) file.
 | Firefox | ![screenshot](documentation/testing/firefoxbrowsertest.png) ![screenshot](documentation/testing/firefoxbrowsertest2.png) | Looks Good on Firefox |
 | Microsoft Edge | ![screenshot](documentation/testing/microsoftedgebrowser.png) ![screenshot](documentation/testing/microsoftedgebrowser2.png) | Looks Good on Edge |
 
+## Responsiveness
 
+- "Torii Gates" looks great everywhere. It is fully responsive on small mobile phones, medium mobile phones, tablets and the browser window.
+- Media Queries were set up in the CSS code to ensure full responsiveness of the site.
+- Media Queries allowed me to target certain elements and change the shape of them or classes and id's to make them bigger, smaller in their measurments to get a good responsive page.
+- CSS Flexbox was also used to achieve this.
+
+- To check the responsiveness of the website you can follow these steps:
+1. Go to the [live site](https://mahidacodetrained.github.io/project1-toriigate/) and right cick with your mouse on the screen.
+2. Once you have right clicked you will see a menu. Find Inspect Element.
+3. Once you have found inspect element you will see responsive design on the top of the page.
+4. This is where you can now scroll and drag the site to see how it looks like on different screen sizes.
+
+## Lighthouse
 
 
 

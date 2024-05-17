@@ -60,7 +60,7 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 | **iframe** | An iframe element was used as a feature in this project which is scrollable with your fingers on tablet, mobile and with mouse on desktop | ![screenshot](documentation/features/iframejapan.png) |
 | **Hover Submit Button** | The form in gallery.html has input elements all with a hover element to change the background color | ![screenshot](documentation/features/hoversubmit.png) |
 | **Hero Image** | A hero image to instantly draw the user's attention with a torii gate| ![screenshot](documentation/features/herofeature.png) |
-| **Gallery Page** | There is a gallery page included in the site to dive into the world of torii gates | ![screenshot](documentation/features/galleryfeature.png |
+| **Gallery Page** | There is a gallery page included in the site to dive into the world of torii gates | ![screenshot](documentation/features/galleryfeature.png) |
 | **Famous Torii Locations** | There is a page dedicated to showcasing the most famous torii's in Japan | ![screenshot](documentation/features/locationsfeature.png) |
 
 ### Future Features
