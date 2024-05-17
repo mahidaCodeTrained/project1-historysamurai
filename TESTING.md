@@ -92,5 +92,6 @@ I conducted lighthouse audits on all of the pages on mobile and desktop to see t
 | As a new user, I want to know where I can learn more about torii gates after exahusting the website. | ![screenshot](documentation/features/userstory6.png) |
 
 ## Bugs
-
+ 
+ I've encountered no bugs at the time of making this README.md file. 
 
