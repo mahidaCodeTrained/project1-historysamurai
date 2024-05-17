@@ -173,7 +173,19 @@ This repository can be cloned by following these steps.
 6. In the IDE terminal, you can now clone my repository by inputting this command:
    - `git clone https://github.com/mahidaCodeTrained/project1-toriigate`
 
+## Credits 
 
+- This will credit everything that I used for content and code in this project about torii gates.
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Font Awesome](https://fontawesome.com/) | index.html, location.html, gallery.html | helped me make torii logos for the navigation |
+| [Pexels](https://www.pexels.com/) | index.html, location.html, gallery.html | "This site gave me great images to use in the website" |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) | gallery.html | taught me how to make a parralax |
+| [YouTube](https://www.youtube.com/watch?v=oYRda7UtuhA&t=3271s) | index.html, locations.html, gallery.html | Although, I didn't structure my page like this video it helped me get a grasp of what I'm doing. |
+| [Unsplash](https://unsplash.com/) | index.html, locations.html, gallery.html | This website provided me great images to use. |
+| [Japan Wonder Travel Blog](https://en.wikipedia.org/wiki/List_of_short_place_names) | index.html, locations.html  | This website gave me alot of information to use in the pages. |
+| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) |  | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
 
 ##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
