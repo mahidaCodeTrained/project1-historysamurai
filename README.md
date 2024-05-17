@@ -62,6 +62,10 @@ These are the mockup screenshots of the three pages index.html, locations.html a
 
 ### Future Features
 
+- In the future when I possibly come back to this project to improve upon it, I would like to add more features.
+- I would like to add transitions through images and transitions and delays on background colors/images through the use of JavaScript.
+- I would like to add more features concerning psuedoclasses to change how elements behave.
+
 
 ## User Stories
 1. As a new user, I want to be able to easily navigate through the pages of the website.
@@ -131,11 +135,12 @@ modern design and easy on the eye visibility.
 - [Font Awesome](https://fontawesome.com/) used to obtain logos such as the torii gate logo in the mobile navigation.
 - [Google Fonts](https://fonts.google.com/) used to import fonts into the site.
 - [ezgif](https://ezgif.com/optiwebp) used to compress images and videos to small file sizes.
+- [maps.ie](https://www.maps.ie/create-google-map/) used to create iframe for google maps locations.
 
 
 ## Testing
-[Describe the testing process and methodologies used in your project]
-
+ 
+ Please refer to the [TESTING.md](TESTING.md) file to see the testing of the website.
 
 ## Deployment 
 
