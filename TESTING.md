@@ -15,9 +15,9 @@ Return to the [README.md](README.md) file.
 
 - [Responsiveness](#responsiveness)
 
-- [Accessibility](#accessibility)
-
 - [Lighthouse](#lighthouse)
+
+- [User Story Testing](#user-story-testing)
 
 - [Bugs](#bugs)
 
@@ -79,5 +79,18 @@ I conducted lighthouse audits on all of the pages on mobile and desktop to see t
 - The site is performing great on all accounts in desktop. 
 - The best practices are low due to the iframes in locations.html. 
 - Mobile performances suffers due to the hero images and many images to render.
+
+## User Story Testing 
+
+| User Story | Screenshot |
+| :---: | :---: |
+| As a new user, I want to be able to easily navigate through the pages of the website. | ![screenshot](documentation/features/userstory1.png) |
+| As a new user, I want to see the most famous torii gates in Japan. | ![screenshot](documentation/features/userstory2.png) |
+| As a new user, I want to explore a gallery showcasing images related to the torii Gates. | ![screenshot](documentation/features/userstory3.png) |
+| As a new user, I want to learn about the history and meaning behind the torii gates. | ![screenshot](documentation/features/userstory4.png) |
+| As a new user, I want to learn about the history and significance of Torii Gates through informative articles and videos. | ![screenshot](documentation/features/userstory5.png) ![screenshot](documentation/features/userstory5(2).png) |
+| As a new user, I want to know where I can learn more about torii gates after exahusting the website. | ![screenshot](documentation/features/userstory6.png) |
+
+## Bugs
 
 
